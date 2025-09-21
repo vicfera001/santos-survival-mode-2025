@@ -1,0 +1,79 @@
+name: Simular Campeonato (PowerShell)
+
+on:
+  workflow_dispatch:
+    inputs:
+      sims:
+        description: "Número de simulações"
+        required: true
+        default: "20000"
+      team:
+        description: "Time (igual ao current_table.csv)"
+        required: true
+        default: "Santos"
+      seed_baseline:
+        description: "Seed para Baseline"
+        required: true
+        default: "22"
+      seed_elo:
+        description: "Seed para Elo"
+        required: true
+        default: "23"
+      seed_poisson:
+        description: "Seed para Poisson"
+        required: true
+        default: "24"
+
+jobs:
+  run-all:
+    runs-on: ubuntu-latest   # runner do GitHub; vamos executar comandos em PowerShell (pwsh)
+    strategy:
+      matrix:
+        method: [baseline, elo, poisson]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies (pwsh)
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Stop"
+          python -m pip install --upgrade pip
+          if (Test-Path -Path "requirements.txt") {
+            pip install -r requirements.txt
+          } else {
+            pip install numpy pandas matplotlib lxml
+          }
+
+      - name: Run simulation (pwsh)
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Stop"
+
+          $method = "${{ matrix.method }}"
+          $sims   = [int]"${{ github.event.inputs.sims }}"
+          $team   = "${{ github.event.inputs.team }}"
+
+          $seedBaseline = [int]"${{ github.event.inputs.seed_baseline }}"
+          $seedElo      = [int]"${{ github.event.inputs.seed_elo }}"
+          $seedPoisson  = [int]"${{ github.event.inputs.seed_poisson }}"
+
+          $seed = $seedBaseline
+          if ($method -eq "elo")      { $seed = $seedElo }
+          elseif ($method -eq "poisson") { $seed = $seedPoisson }
+
+          python ./main.py --method $method --sims $sims --santos $team --seed $seed
+
+          if (!(Test-Path -Path "outputs")) { New-Item -ItemType Directory -Path "outputs" | Out-Null }
+
+      - name: Upload outputs (per method)
+        uses: actions/upload-artifact@v4
+        with:
+          name: outputs-${{ matrix.method }}
+          path: outputs/

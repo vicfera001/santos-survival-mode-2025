@@ -1,0 +1,201 @@
+﻿round,home,away
+19,Atlético Mineiro,Red Bull Bragantino
+19,Bahia,Cruzeiro
+19,Botafogo,Fortaleza
+19,Corinthians,Sport
+19,Grêmio,Juventude
+19,Internacional,Fluminense
+19,Palmeiras,Mirassol
+19,Santos,Flamengo
+19,São Paulo,Ceará
+19,Vasco da Gama,Vitória
+20,Ceará,Palmeiras
+20,Cruzeiro,Vasco da Gama
+20,Fluminense,Botafogo
+20,Fortaleza,Grêmio
+20,Internacional,Atlético Mineiro
+20,Juventude,São Paulo
+20,Mirassol,Santos
+20,Red Bull Bragantino,Bahia
+20,Sport,Flamengo
+20,Vitória,Corinthians
+21,Bahia,Internacional
+21,Botafogo,Atlético Mineiro
+21,Corinthians,Cruzeiro
+21,Flamengo,Vitória
+21,Grêmio,Fluminense
+21,Mirassol,Ceará
+21,Palmeiras,Juventude
+21,Santos,Sport
+21,São Paulo,Fortaleza
+21,Vasco da Gama,Red Bull Bragantino
+22,Atlético Mineiro,Grêmio
+22,Botafogo,Bahia
+22,Ceará,Santos
+22,Cruzeiro,Flamengo
+22,Fluminense,São Paulo
+22,Fortaleza,Palmeiras
+22,Internacional,Vasco da Gama
+22,Juventude,Mirassol
+22,Red Bull Bragantino,Corinthians
+22,Vitória,Sport
+23,Ceará,Juventude
+23,Corinthians,Internacional
+23,Flamengo,Red Bull Bragantino
+23,Grêmio,Bahia
+23,Mirassol,Fortaleza
+23,Palmeiras,Fluminense
+23,Santos,Vitória
+23,Sport,Cruzeiro
+23,São Paulo,Atlético Mineiro
+23,Vasco da Gama,Botafogo
+24,Atlético Mineiro,Palmeiras
+24,Bahia,São Paulo
+24,Botafogo,Corinthians
+24,Cruzeiro,Vitória
+24,Fluminense,Mirassol
+24,Fortaleza,Ceará
+24,Grêmio,Vasco da Gama
+24,Internacional,Flamengo
+24,Juventude,Santos
+24,Red Bull Bragantino,Sport
+25,Ceará,Fluminense
+25,Corinthians,Grêmio
+25,Flamengo,Botafogo
+25,Juventude,Fortaleza
+25,Mirassol,Atlético Mineiro
+25,Palmeiras,Bahia
+25,Santos,Cruzeiro
+25,Sport,Internacional
+25,São Paulo,Vasco da Gama
+25,Vitória,Red Bull Bragantino
+26,Atlético Mineiro,Ceará
+26,Bahia,Mirassol
+26,Botafogo,Sport
+26,Fluminense,Juventude
+26,Fortaleza,Santos
+26,Grêmio,Flamengo
+26,Internacional,Vitória
+26,Red Bull Bragantino,Cruzeiro
+26,São Paulo,Corinthians
+26,Vasco da Gama,Palmeiras
+27,Ceará,Bahia
+27,Cruzeiro,Internacional
+27,Flamengo,São Paulo
+27,Fortaleza,Fluminense
+27,Juventude,Atlético Mineiro
+27,Mirassol,Vasco da Gama
+27,Palmeiras,Corinthians
+27,Santos,Red Bull Bragantino
+27,Sport,Grêmio
+27,Vitória,Botafogo
+28,Atlético Mineiro,Fortaleza
+28,Bahia,Juventude
+28,Botafogo,Cruzeiro
+28,Corinthians,Mirassol
+28,Fluminense,Santos
+28,Grêmio,Vitória
+28,Internacional,Red Bull Bragantino
+28,Palmeiras,Flamengo
+28,São Paulo,Sport
+28,Vasco da Gama,Ceará
+29,Ceará,Corinthians
+29,Cruzeiro,Grêmio
+29,Fluminense,Atlético Mineiro
+29,Fortaleza,Bahia
+29,Juventude,Vasco da Gama
+29,Mirassol,Flamengo
+29,Red Bull Bragantino,Botafogo
+29,Santos,Internacional
+29,Sport,Palmeiras
+29,Vitória,São Paulo
+30,Atlético Mineiro,Santos
+30,Bahia,Fluminense
+30,Botafogo,Internacional
+30,Corinthians,Juventude
+30,Flamengo,Ceará
+30,Grêmio,Red Bull Bragantino
+30,Mirassol,Sport
+30,Palmeiras,Vitória
+30,São Paulo,Cruzeiro
+30,Vasco da Gama,Fortaleza
+31,Atlético Mineiro,Bahia
+31,Ceará,Sport
+31,Cruzeiro,Palmeiras
+31,Fluminense,Vasco da Gama
+31,Fortaleza,Corinthians
+31,Internacional,Grêmio
+31,Juventude,Flamengo
+31,Red Bull Bragantino,São Paulo
+31,Santos,Botafogo
+31,Vitória,Mirassol
+32,Bahia,Santos
+32,Ceará,Vitória
+32,Corinthians,Fluminense
+32,Flamengo,Fortaleza
+32,Grêmio,Botafogo
+32,Mirassol,Cruzeiro
+32,Palmeiras,Red Bull Bragantino
+32,Sport,Juventude
+32,São Paulo,Internacional
+32,Vasco da Gama,Atlético Mineiro
+33,Atlético Mineiro,Corinthians
+33,Bahia,Vasco da Gama
+33,Botafogo,São Paulo
+33,Cruzeiro,Ceará
+33,Fluminense,Flamengo
+33,Fortaleza,Sport
+33,Internacional,Palmeiras
+33,Juventude,Vitória
+33,Red Bull Bragantino,Mirassol
+33,Santos,Grêmio
+34,Ceará,Red Bull Bragantino
+34,Corinthians,Bahia
+34,Flamengo,Atlético Mineiro
+34,Juventude,Cruzeiro
+34,Mirassol,Internacional
+34,Palmeiras,Botafogo
+34,Sport,Fluminense
+34,São Paulo,Grêmio
+34,Vasco da Gama,Santos
+34,Vitória,Fortaleza
+35,Atlético Mineiro,Sport
+35,Bahia,Flamengo
+35,Botafogo,Mirassol
+35,Fluminense,Vitória
+35,Fortaleza,Cruzeiro
+35,Grêmio,Palmeiras
+35,Internacional,Ceará
+35,Red Bull Bragantino,Juventude
+35,Santos,São Paulo
+35,Vasco da Gama,Corinthians
+36,Ceará,Botafogo
+36,Corinthians,Santos
+36,Cruzeiro,Fluminense
+36,Flamengo,Vasco da Gama
+36,Fortaleza,Red Bull Bragantino
+36,Juventude,Internacional
+36,Mirassol,Grêmio
+36,Palmeiras,São Paulo
+36,Sport,Bahia
+36,Vitória,Atlético Mineiro
+37,Atlético Mineiro,Cruzeiro
+37,Bahia,Vitória
+37,Botafogo,Juventude
+37,Corinthians,Flamengo
+37,Fluminense,Red Bull Bragantino
+37,Grêmio,Ceará
+37,Internacional,Fortaleza
+37,Santos,Palmeiras
+37,São Paulo,Mirassol
+37,Vasco da Gama,Sport
+38,Ceará,São Paulo
+38,Cruzeiro,Bahia
+38,Flamengo,Santos
+38,Fluminense,Internacional
+38,Fortaleza,Botafogo
+38,Juventude,Grêmio
+38,Mirassol,Palmeiras
+38,Red Bull Bragantino,Atlético Mineiro
+38,Sport,Corinthians
+38,Vitória,Vasco da Gama
